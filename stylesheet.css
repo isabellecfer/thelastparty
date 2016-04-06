@@ -1,0 +1,98 @@
+img {
+    display: block;
+    margin: auto;
+}
+
+table {
+	margin: auto;
+	border-spacing: 30px;
+}
+
+td {
+	vertical-align: top;
+}
+
+.panel {
+	height: 358px;
+	width: 280px;
+	padding: 10px;
+	vertical-align: top;
+	background-color: #272626;
+	border: 1px solid black;
+	border-radius: 3px;
+    opacity: 0.9;
+}
+body {
+	background-image:    url(images/partyl.jpg);
+	background-size:     cover;                      /* <------ */
+	background-repeat:   no-repeat;
+	background-position: center center;              /* optional, center the image */
+}
+span {
+	color: #A0A0A0;
+	margin: 10px 0px 15px 0px;
+	display: inline-block;
+}
+
+form {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+input {
+	border-radius: 3px;
+}
+
+button {
+    font-family: arial;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    border: 2px solid #aaaaaa;
+}
+
+.listWrapper {
+	height: 248px;
+	width: 100%;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	display: inline-block;
+    background-color: #b7649e;
+    border-radius: 5px;
+	opacity: 0.7;
+}
+
+#list {
+	display: inline-block;
+	padding: 10px;
+    font-family: Impact;
+    color: #000000;
+}
+
+#adicionarDJ {
+
+}
+
+#gerarLista{
+    background-color: #2b8913;
+	width: 100%;
+}
+
+#txt{
+	text-align: center;
+	font-family: arial;
+}
+
+input.button-add {
+    background-image: url(images/addb.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 24px;           /* make this the size of your image */
+    padding-left: 24px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+}
