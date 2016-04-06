@@ -29,7 +29,6 @@ $(document).ready(function () {
             //envia lista de usuarios lastfm
             //
 
-
             var musicas = readJSON("http://localhost:5002/[" + usuarios + "]");
             //inicia o player com a lista de musicas
             setupPlayer(musicas);
